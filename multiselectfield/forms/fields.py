@@ -30,8 +30,8 @@ class CheckboxSelectMultipleSorted(CheckboxSelectMultiple):
 
     class Media:
         js = (
-            'multiselectfield/widget.js',
             'multiselectfield/jquery-ui.js',
+            'multiselectfield/widget.js',
         )
         css = {'screen': (
             'multiselectfield/widget.css',
